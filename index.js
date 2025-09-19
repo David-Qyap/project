@@ -1,20 +1,13 @@
-"use strict";
+"use strict ";
+const num = 50;
 
-let numberOfFilms = +prompt("How", "");
-
-const personalMovieDB = {
-  count: numberOfFilms,
-  movies: {},
-  actors: {},
-  genres: [],
-  privat: false,
-};
-
-const a = prompt("one", ""),
-  b = +prompt("two", ""),
-  c = prompt("three", ""),
-  d = +prompt("four", "");
-
-personalMovieDB.movies[a] = b;
-personalMovieDB.movies[c] = d;
-console.log(personalMovieDB);
+switch (num) {
+  case 49:
+    console.log(error);
+    break;
+  case 51:
+    console.log(true);
+    break;
+  default:
+    console.log("next time");
+}
