@@ -1,12 +1,20 @@
 "use strict";
 
-let inc = 10,
-  decr = 10;
+let numberOfFilms = +prompt("How", "");
 
-// ++inc;
-// decr--;
-// console.log(inc++);
-// console.log(decr--);
-// console.log(inc);
-// console.log(5 % 2);
-console.log(inc === "decr");
+const personalMovieDB = {
+  count: numberOfFilms,
+  movies: {},
+  actors: {},
+  genres: [],
+  privat: false,
+};
+
+const a = prompt("one", ""),
+  b = +prompt("two", ""),
+  c = prompt("three", ""),
+  d = +prompt("four", "");
+
+personalMovieDB.movies[a] = b;
+personalMovieDB.movies[c] = d;
+console.log(personalMovieDB);
